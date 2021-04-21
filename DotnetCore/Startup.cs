@@ -22,6 +22,7 @@ namespace DotnetCore
         public void ConfigureServices(IServiceCollection services)
         {
                services.AddDbContext<DataContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+               services.AddCors();
 
             services.AddControllers();
          
@@ -41,6 +42,8 @@ namespace DotnetCore
                // app.UseSwagger();
                // app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "DotnetCore v1"));
             }
+
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             app.UseHttpsRedirection();
 

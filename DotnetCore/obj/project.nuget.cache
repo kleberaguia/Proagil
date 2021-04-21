@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bTKfdxTONHqfcfSdaXpZTWgwnbRjA4yGlrBXk0o0i2RBjkU2h+XM0dD7q3qoERp1O8EjbHIvX9PpDVI0Hsi36w==",
+  "dgSpecHash": "bIYAMv2iMkNbz75QeVCBdTOr6GUfzPmvTD1W4H0lL+qxL0TGCAyjHEDvjPBuf8zNlEqwh/avhMuIyHQDBvFmhA==",
   "success": true,
-  "projectFilePath": "D:\\projetos\\Estudo_Udemy\\DotnetCore\\DotnetCore.csproj",
+  "projectFilePath": "D:\\projetos\\Estudo_Udemy\\dotnetCore\\DotnetCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\klebe\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\klebe\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

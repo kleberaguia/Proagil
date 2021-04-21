@@ -8,7 +8,6 @@ namespace DotnetCore.Model
         public int EnventoId { get; set; }
         public string DataEvento { get; set; }
         public string Edicao { get; set; }
-
         public int QtPessoas { get; set; }
         public string Tema { get; set; }
         
