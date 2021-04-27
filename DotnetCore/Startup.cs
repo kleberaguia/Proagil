@@ -1,10 +1,11 @@
-using DotnetCore.Data;
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ProAgil.Repositorio;
 //using Microsoft.OpenApi.Models;
 
 namespace DotnetCore
@@ -21,7 +22,9 @@ namespace DotnetCore
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-               services.AddDbContext<DataContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+               services.AddDbContext<ProAgilContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+               services.AddScoped<IProAgilRepositorio,ProAgilRepositorio>();
+               
                services.AddCors();
 
             services.AddControllers();
@@ -44,6 +47,8 @@ namespace DotnetCore
             }
 
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
+            app.UseStaticFiles();
 
             app.UseHttpsRedirection();
 

@@ -1,0 +1,15 @@
+D:\projetos\Estudo_Udemy\Proagil.Repositorio\bin\Debug\net5.0\ProAgil.Repositorio.deps.json
+D:\projetos\Estudo_Udemy\proAgil.Repositorio\bin\Debug\net5.0\ProAgil.Repositorio.dll
+D:\projetos\Estudo_Udemy\Proagil.Repositorio\bin\Debug\net5.0\ref\ProAgil.Repositorio.dll
+D:\projetos\Estudo_Udemy\proAgil.Repositorio\bin\Debug\net5.0\ProAgil.Repositorio.pdb
+D:\projetos\Estudo_Udemy\proAgil.Repositorio\bin\Debug\net5.0\ProAgil.Dominio.dll
+D:\projetos\Estudo_Udemy\proAgil.Repositorio\bin\Debug\net5.0\ProAgil.Dominio.pdb
+D:\projetos\Estudo_Udemy\proAgil.Repositorio\obj\Debug\net5.0\ProAgil.Repositorio.csprojAssemblyReference.cache
+D:\projetos\Estudo_Udemy\proAgil.Repositorio\obj\Debug\net5.0\ProAgil.Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+D:\projetos\Estudo_Udemy\proAgil.Repositorio\obj\Debug\net5.0\ProAgil.Repositorio.AssemblyInfoInputs.cache
+D:\projetos\Estudo_Udemy\proAgil.Repositorio\obj\Debug\net5.0\ProAgil.Repositorio.AssemblyInfo.cs
+D:\projetos\Estudo_Udemy\proAgil.Repositorio\obj\Debug\net5.0\ProAgil.Repositorio.csproj.CoreCompileInputs.cache
+D:\projetos\Estudo_Udemy\Proagil.Repositorio\obj\Debug\net5.0\ProAgil.Repositorio.csproj.CopyComplete
+D:\projetos\Estudo_Udemy\proAgil.Repositorio\obj\Debug\net5.0\ProAgil.Repositorio.dll
+D:\projetos\Estudo_Udemy\proAgil.Repositorio\obj\Debug\net5.0\ref\ProAgil.Repositorio.dll
+D:\projetos\Estudo_Udemy\proAgil.Repositorio\obj\Debug\net5.0\ProAgil.Repositorio.pdb

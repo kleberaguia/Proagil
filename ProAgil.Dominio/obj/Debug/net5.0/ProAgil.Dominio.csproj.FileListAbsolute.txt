@@ -1,0 +1,12 @@
+D:\projetos\Estudo_Udemy\Proagil.Dominio\bin\Debug\net5.0\ProAgil.Dominio.deps.json
+D:\projetos\Estudo_Udemy\Proagil.Dominio\bin\Debug\net5.0\ProAgil.Dominio.dll
+D:\projetos\Estudo_Udemy\Proagil.Dominio\bin\Debug\net5.0\ref\ProAgil.Dominio.dll
+D:\projetos\Estudo_Udemy\Proagil.Dominio\bin\Debug\net5.0\ProAgil.Dominio.pdb
+D:\projetos\Estudo_Udemy\Proagil.Dominio\obj\Debug\net5.0\ProAgil.Dominio.csprojAssemblyReference.cache
+D:\projetos\Estudo_Udemy\Proagil.Dominio\obj\Debug\net5.0\ProAgil.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\projetos\Estudo_Udemy\Proagil.Dominio\obj\Debug\net5.0\ProAgil.Dominio.AssemblyInfoInputs.cache
+D:\projetos\Estudo_Udemy\Proagil.Dominio\obj\Debug\net5.0\ProAgil.Dominio.AssemblyInfo.cs
+D:\projetos\Estudo_Udemy\Proagil.Dominio\obj\Debug\net5.0\ProAgil.Dominio.csproj.CoreCompileInputs.cache
+D:\projetos\Estudo_Udemy\Proagil.Dominio\obj\Debug\net5.0\ProAgil.Dominio.dll
+D:\projetos\Estudo_Udemy\Proagil.Dominio\obj\Debug\net5.0\ref\ProAgil.Dominio.dll
+D:\projetos\Estudo_Udemy\Proagil.Dominio\obj\Debug\net5.0\ProAgil.Dominio.pdb
