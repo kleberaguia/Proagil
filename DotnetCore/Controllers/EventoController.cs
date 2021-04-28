@@ -73,7 +73,7 @@ namespace DotnetCore.Controllers
             return BadRequest();
         }
 
-         [HttpPut]
+         [HttpPut("{eventoId}")]
         public async Task<IActionResult> Put(int eventoId, Evento model){
             try
             {
@@ -96,23 +96,25 @@ namespace DotnetCore.Controllers
         }
 
 
-          [HttpDelete]
+          [HttpDelete("{eventoId}")]
         public async Task<IActionResult> Delete(int eventoId){
             try
             {
-                var evento = _repo.GetEventoAsyncById(eventoId,false);
+                  var evento  = await _repo.GetEventoAsyncById(eventoId, false);
+              
 
                 if(evento == null) return NotFound();
-                _repo.Delete(evento);              
+                 _repo.Delete(evento);              
                
                if(await _repo.SaveChangeAsync())
                {
                     return Ok();
                }
             }
-            catch (System.Exception)
+            catch (System.Exception ex)
             {
-                 return this.StatusCode(StatusCodes.Status500InternalServerError,"Erro de banco de dados");
+                throw new System.Exception(ex.Message);
+                 //return this.StatusCode(StatusCodes.Status500InternalServerError,"Erro de banco de dados");
             }
 
             return BadRequest();
